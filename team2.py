@@ -1,7 +1,7 @@
 ####
 # Each team's file must define four tokens:
-#     team_name: a string
-#     strategy_name: a string
+#     team_name: group 2
+#   strategy_name: a string
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
 ####
@@ -62,7 +62,7 @@ if __name__ == '__main__':
               # that is relevant to the test of move(). Here,
               # the simulation (if working correctly) would have awarded 
               # 300 to me and -750 to them. This test will pass if and only if
-              # move('bbb', 'ccc', 0, 0) returns 'b'.
-              my_score=0, 
-              their_score=0,
-              result='b')             
+               # move('bbb', 'ccc', 0, 0) returns 'b'.
+            my_score=0, 
+                   their_score=0,
+           result='b')            
